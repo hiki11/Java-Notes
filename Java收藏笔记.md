@@ -69,5 +69,8 @@ https://blog.csdn.net/zhengwangzw/article/details/104889549?utm_medium=distribut
 > }
 > ```
 >
-> 
+> HashMap的哈希函数：hash函数是先拿到 key 的hashcode，是一个32位的int值，然后让hashcode的高16位和低16位进行异或操作。也叫扰动函数，这么设计有二点原因：
+>
+> 1. 一定要尽可能降低hash碰撞，越分散越好；
+> 2. 算法一定要尽可能高效，因为这是高频操作, 因此采用位运算；
 
