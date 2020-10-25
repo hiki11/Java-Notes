@@ -73,4 +73,55 @@ https://blog.csdn.net/zhengwangzw/article/details/104889549?utm_medium=distribut
 >
 > 1. 一定要尽可能降低hash碰撞，越分散越好；
 > 2. 算法一定要尽可能高效，因为这是高频操作, 因此采用位运算；
+>
+> hashcode的高16位和低16位异或能降低hash碰撞的原因，hash函数能不能直接用key的hashcode：
+>
+> 
+
+## 关键字
+
+https://blog.csdn.net/qq_34375473/article/details/81487803
+
+final关键字：
+
+> final在Java中是一个保留的关键字，可以声明成员变量、方法、类以及本地变量。一旦你将引用声明作final，你将不能改变这个引用了，编译器会检查代码，如果你试图将变量再次初始化的话，编译器会报编译错误。
+
+### Java数组的三种打印方式
+
+https://blog.csdn.net/chenkaibsw/article/details/78989459
+
+> **1.数组的输出的三种方式**
+>
+> **一维数组：**
+>
+> 定义一个数组  int[] array = {1,2,3,4,5};
+>
+> （1）传统的for循环方式
+>
+> ```java
+> for(int i=0;i<array.length;i++)
+> {
+>       System.out.println(array[i]);
+> }
+> ```
+>
+> （2）for each循环
+>
+> ```java
+> for(int a:array)
+>     System.out.println(a);
+> ```
+>
+> 3）利用Array类中的toString方法
+>
+> 调用Array.toString(a)，返回一个包含数组元素的字符串，这些元素被放置在括号内，并用逗号分开
+>
+> ```java
+> int[] array = {1,2,3,4,5};
+> System.out.println(Arrays.toString(array));
+> ```
+>
+> System.out.println(array);打印是的是数组的首地址。
+>
+> 二维的方法相似，多维数组被解读为"数组的数组"。
 
