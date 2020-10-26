@@ -2,9 +2,7 @@
 
 ## Map
 
-https://zhidao.baidu.com/question/153225511.html
-
-Java中遍历Map对象的4种方法：
+[Java中遍历Map对象的4种方法：](https://zhidao.baidu.com/question/153225511.html)
 
 > 1、通过Map.entrySet遍历key和value，在for-each循环中使用entries来遍历.推荐，尤其是容回量大时。
 >
@@ -31,13 +29,13 @@ Java中遍历Map对象的4种方法：
 > 2、使用EntrySet 遍历，效率更高。
 >
 
-https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=84053098_3_dg&wd=java%200%3A0%3A0%3A0%3A0%3A0%3A0%3A1&oq=Mac%2520java%25200%253A0%253A0%253A0%253A0%253A0%253A0%253A1&rsv_pq=f570dd040007ae76&rsv_t=78bcCPLSyVhbNsRk8Eliizxnb%2F4TVtsp9RYv1AWH0gI0yu4ixoJ8YwxyQjS%2BUF7w59sp8g&rqlang=cn&rsv_enter=1&rsv_dl=tb&inputT=252&rsv_sug3=13&rsv_sug2=0&rsv_sug4=9327&bs=Mac%20java%200%3A0%3A0%3A0%3A0%3A0%3A0%3A1&rsv_jmp=fail
 
-Java 0:0:0:0未添加	
 
-https://blog.csdn.net/zhengwangzw/article/details/104889549?utm_medium=distribute.pc_category.none-task-blog-hot-10&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-10&request_id=
+[Java 0:0:0:0](https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=84053098_3_dg&wd=java%200%3A0%3A0%3A0%3A0%3A0%3A0%3A1&oq=Mac%2520java%25200%253A0%253A0%253A0%253A0%253A0%253A0%253A1&rsv_pq=f570dd040007ae76&rsv_t=78bcCPLSyVhbNsRk8Eliizxnb%2F4TVtsp9RYv1AWH0gI0yu4ixoJ8YwxyQjS%2BUF7w59sp8g&rqlang=cn&rsv_enter=1&rsv_dl=tb&inputT=252&rsv_sug3=13&rsv_sug2=0&rsv_sug4=9327&bs=Mac%20java%200%3A0%3A0%3A0%3A0%3A0%3A0%3A1&rsv_jmp=fail)未添加
 
-一个HashMap跟面试官扯了半个小时	**安琪拉**
+
+
+[一个HashMap跟面试官扯了半个小时](https://blog.csdn.net/zhengwangzw/article/details/104889549?utm_medium=distribute.pc_category.none-task-blog-hot-10&depth_1-utm_source=distribute.pc_category.none-task-blog-hot-10&request_id=)	**安琪拉**
 
 > HashMap的内部数据结构，JDK1.8版本的，内部使用数组 + 链表红黑树：
 >
@@ -80,15 +78,11 @@ https://blog.csdn.net/zhengwangzw/article/details/104889549?utm_medium=distribut
 
 ## 关键字
 
-https://blog.csdn.net/qq_34375473/article/details/81487803
-
-final关键字：
+[final关键字：](https://blog.csdn.net/qq_34375473/article/details/81487803)
 
 > final在Java中是一个保留的关键字，可以声明成员变量、方法、类以及本地变量。一旦你将引用声明作final，你将不能改变这个引用了，编译器会检查代码，如果你试图将变量再次初始化的话，编译器会报编译错误。
 
-### Java数组的三种打印方式
-
-https://blog.csdn.net/chenkaibsw/article/details/78989459
+### [Java数组的三种打印方式](https://blog.csdn.net/chenkaibsw/article/details/78989459)
 
 > **1.数组的输出的三种方式**
 >
