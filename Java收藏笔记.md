@@ -27,9 +27,8 @@
 > 1、list和set集合都实现了Iterable接口，所以他们的实现类可以使用迭代器遍历，map集合未实现该接口，若要使用迭代器循环遍历，需要借助set集合。
 >
 > 2、使用EntrySet 遍历，效率更高。
->
 
-
+未完成
 
 [Java 0:0:0:0](https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=84053098_3_dg&wd=java%200%3A0%3A0%3A0%3A0%3A0%3A0%3A1&oq=Mac%2520java%25200%253A0%253A0%253A0%253A0%253A0%253A0%253A1&rsv_pq=f570dd040007ae76&rsv_t=78bcCPLSyVhbNsRk8Eliizxnb%2F4TVtsp9RYv1AWH0gI0yu4ixoJ8YwxyQjS%2BUF7w59sp8g&rqlang=cn&rsv_enter=1&rsv_dl=tb&inputT=252&rsv_sug3=13&rsv_sug2=0&rsv_sug4=9327&bs=Mac%20java%200%3A0%3A0%3A0%3A0%3A0%3A0%3A1&rsv_jmp=fail)未添加
 
@@ -119,3 +118,18 @@
 >
 > 二维的方法相似，多维数组被解读为"数组的数组"。
 
+## JVM
+
+### [Java Web基础篇之浅谈JVM](https://blog.csdn.net/zangdaiyang1991/article/details/90749676)
+
+> JVM(Java Virtual Machine)：整个java实现跨平台的最核心的部分，能够运行以Java语言写的程序。
+>
+> JVM是Java Virtual Machine（Java虚拟机）的缩写，JVM是一种用于计算设备的规范，它是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟各种计算机功能来实现的。
+>
+> Java虚拟机在执行字节码时，把字节码解释成具体平台上的机器指令执行。这就是Java的能够“一次编译，到处运行”的原因。
+>
+> ## JVM体系结构与运行原理
+>
+> Java语言写的源程序通过Java编译器，编译成与平台无关的‘字节码程序’(.class文件，也就是0，1二进制程序)，然后在OS之上的Java解释器中解释执行。
+>
+> ![img](/Users/michael/Documents/Notes/Java/image/20160704103920750.png)
